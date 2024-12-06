@@ -14,6 +14,14 @@
 \usepackage{polyglossia}
 \setmainlanguage{belarusian}
 \setotherlanguage{english}
+
+% Define a new boolean flag unless it has already been defined.
+% this is to fix error - related to polyglossia, but I'm completely unaware about its source.
+% hpmor.toc
+% ! Undefined control sequence.
+% l.1 \xpginauxfiletrue
+\providebool{xpginauxfile}
+
 % quotes
 \usepackage[autostyle=false, style=russian]{csquotes}
 \MakeOuterQuote{"}

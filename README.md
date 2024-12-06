@@ -21,6 +21,29 @@ chapters are renumbered to start from 1 at the start of a book, and there are
 no appendices. Some epigraphs have been omitted but are in the source files
 of the chapters.
 
+## Belarusian translation summary
+
+* Fonts: All original fonts are limited to English and needed replacement.
+
+  * All "Alegreya" fonts has beenreplaced with the current Google Fonts
+    distribution. 
+  * Lumos has been extended to include cyrillic glyphs from anonymous font 
+    "AA Lumos Caps".
+  * Font of written notes (gabriele_bad_ah) replaced with true cursive
+    multilanguage font from Google Fonts "Great Vibes".
+  * Use of plyglossia package also forces monotype font to provide cyrillic
+    subset (althoug we use it for URLs only), so default monotype is 
+    set to Source Code Pro from Google Fonts.
+  * ComforterBrush - as fast handwriting font.
+  * As I have not checked all of them, most likely will replace 
+    a font here or there as translation proceeds.
+
+* To do:
+  * Missing character: There is no   (U+0020) in font Miscelanea.ttf
+  * xdvipdfmx:warning: Object @page. already defined.
+
+
+
 ## Files
 
 * `hpmor.tex` - the main file
@@ -200,3 +223,4 @@ translations of this edition.
  -->
 <!--  LocalWords:  textsc
  -->
+

@@ -26,6 +26,12 @@ RUN apt-get install -y miktex latexmk
 RUN apt-get install -y  pandoc calibre imagemagick ghostscript
 
 RUN miktexsetup --shared=yes finish
+RUN miktex --admin  packages update-package-database
+# This installs all packages at once.
+RUN mpm --admin --verbose --package-level=complete --upgrade
+RUN miktex --admin  packages update
+# Enable automatic package installation
+RUN initexmf --admin --set-config-value [MPM]AutoInstall=1
 
 # set working directory
 WORKDIR /app
@@ -37,15 +43,15 @@ VOLUME /app
 # CMD latexmk hpmor ; ./scripts/make_ebooks.sh
 
 # 1. preparation
-# 1.1 build/update image from Dockerfile
-#  docker build -t hpmor .
+# 1.1 build/update image from Dockerfile (image with miktex)
+#  docker build -t hpmor_mik .
 
 # 1.2 create container that mounts current working dir to /app
 #  docker run --name hpmor-en -it --mount type=bind,src="$(pwd)",dst=/app hpmor bash
 #  exit
 
 # note: in Windows you need to replace "$(pwd)" by "%cd%" for the following commands
-# even easier: docker run  -it --rm -v "%cd%:/app" hpmor 
+# even easier: docker run  -it --rm -v "%cd%:/app" hpmor_mik
 # (use cmd, in powershell %% syntax is bye-bye.)
 
 # 2. use container
@@ -57,10 +63,21 @@ VOLUME /app
 # latexmk -e '$max_repeat=1' hpmor
 # Directly:
 # export TEXFONTS=fonts//: 
-# xelatex hpmor --output-directory=output --aux-directory=output/temp
+# xelatex  --output-directory=output --aux-directory=output/temp hpmor
 
 # 3. optionally: cleanup/delete hpmor from docker
 # delete container
 #  docker rm hpmor-en
 # delete image
 #  docker rmi hpmor
+
+
+# So just to summarize miktex changes:
+# 
+#  docker build -t hpmor_mik .
+#  docker run  -it --rm -v "%cd%:/app" hpmor_mik
+#  # to run once:
+#  export TEXFONTS=fonts//: 
+#  xelatex  --output-directory=output --aux-directory=output/temp hpmor
+#  # to run complete build
+#  latexmk hpmor
