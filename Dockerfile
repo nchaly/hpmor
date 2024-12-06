@@ -1,7 +1,7 @@
 # syntax=docker/dockerfile:1
 
 # base image
-FROM ubuntu:24.04
+FROM ubuntu:22.04
 
 # set timezone
 ENV TZ=Europe/Berlin
@@ -12,12 +12,20 @@ ARG DEBIAN_FRONTEND=noninteractive
 # install core packages
 RUN apt-get update
 RUN apt-get dist-upgrade -y
-RUN apt-get install -y python3 git
+RUN apt-get install -y python3 git gnupg2
+
+# miktex installation
+RUN apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys D6BC243565B2087BC3F897C9277A7293F59E4889
+RUN echo "deb http://miktex.org/download/ubuntu jammy universe" | tee /etc/apt/sources.list.d/miktex.list
+
+RUN apt-get update
 
 # for pdf, copied from scripts/install_requirements_pdf.sh
-RUN apt-get install -y texlive-xetex texlive-lang-greek texlive-lang-german latexmk
+RUN apt-get install -y miktex latexmk
 # for ebook, copied from scripts/install_requirements_ebook.sh
-RUN apt-get install -y texlive-extra-utils pandoc calibre imagemagick ghostscript
+RUN apt-get install -y  pandoc calibre imagemagick ghostscript
+
+RUN miktexsetup --shared=yes finish
 
 # set working directory
 WORKDIR /app
@@ -37,11 +45,19 @@ VOLUME /app
 #  exit
 
 # note: in Windows you need to replace "$(pwd)" by "%cd%" for the following commands
+# even easier: docker run  -it --rm -v "%cd%:/app" hpmor 
+# (use cmd, in powershell %% syntax is bye-bye.)
 
 # 2. use container
 #  docker start -ai hpmor-en
 #  latexmk hpmor ; ./scripts/make_ebooks.sh
 #  exit
+
+# Optional: run latex once:
+# latexmk -e '$max_repeat=1' hpmor
+# Directly:
+# export TEXFONTS=fonts//: 
+# xelatex hpmor --output-directory=output --aux-directory=output/temp
 
 # 3. optionally: cleanup/delete hpmor from docker
 # delete container
