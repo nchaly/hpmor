@@ -1,14 +1,18 @@
 % This file includes all the generic formatting for HPatMoR. This mostly entails configuring
 % the memoir package, though “configuring” on occasion means “completely messing it up”.
 
-\RequirePackage{fmtcount}
+% \RequirePackage{fmtcount}
+% No support for most languages, so ignore this package.
+\newcommand{\NUMBERstring}[1]{#1}
+\newcommand{\NUMBERstringnum}[1]{#1}
+
 \RequirePackage{calc}
 
 % Fonts used generally (specific fonts used only once or twice are not here).
 \usepackage{xltxtra}
 \defaultfontfeatures{Ligatures={TeX}}
 \setmainfont[
-  Extension=.otf
+  Extension=.ttf
 , UprightFont=*-Regular
 , ItalicFont=*-Italic
 , BoldFont=*-Bold
@@ -16,8 +20,15 @@
 , SmallCapsFont=AlegreyaSC-Regular
 ]{Alegreya}
 
-\newfontface\hpfont[ExternalLocation]{Lumos}
+\newfontface\hpfont[ExternalLocation]{LumosCyr}
 \newfontface\ptsansi[ExternalLocation]{AlegreyaSans-Italic}
+
+\setmonofont[Extension=.ttf
+, UprightFont=*-Regular
+, ItalicFont=*-Italic
+, BoldFont=*-Bold
+, BoldItalicFont=*-BoldItalic]
+{SourceCodePro}
 
 % Drop-caps at start of chapters
 \renewcommand{\LettrineFontHook}{\hpfont}

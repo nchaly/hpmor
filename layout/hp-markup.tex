@@ -88,9 +88,14 @@
 
 
 % Letters / writtenNote
+\newfontface\hpFontCursive[ExternalLocation]{GreatVibes-Regular.ttf}
+% Fast handwriting font
+\newfontface\hpFontFasthand[ExternalLocation]{ComforterBrush-Regular.ttf}
+
 
 \newenvironment{writtenNote}{%
-\fontspec[ExternalLocation]{Graphe_Alpha_alt.ttf}\scriptsize%
+\begin{flushleft}  % Yep, nobody can justify ideally handwritten text, so lets not even pretend.
+\hpFontCursive\Large%
 \renewcommand{\emph}{\uline}%
 \vskip .1\baselineskip plus .1\baselineskip minus .1\baselineskip%
 \begin{adjustwidth}{\parindent}{\parindent}%
@@ -100,19 +105,19 @@
 {%
 \par
 \end{adjustwidth}%
-\vskip 1\baselineskip plus 1\baselineskip minus 1\baselineskip%
+\end{flushleft}
+\vskip 1\baselineskip plus 1\baselineskip minus 0.1\baselineskip%
 }
 
 % \letterAddress
-\newcommand{\letterAddress}[1]{%
-\pagebreak[1]\fontspec[ExternalLocation]{Graphe_Alpha_alt.ttf}%
-\scriptsize#1\nopagebreak[4]\par%
+\newcommand{\letterAddress}[1]{%%\fontspec[ExternalLocation]{Graphe_Alpha_alt.ttf}%
+\pagebreak[1]#1\nopagebreak[4]\par%
 }
 
 % \letterClosing
 \newcommand{\letterClosing}[2][\vskip 1\baselineskip]{%
-\nopagebreak[4]\fontspec[ExternalLocation]{Graphe_Alpha_alt.ttf}%
-\par\scriptsize#1%
+\nopagebreak[4]%
+\par#1%
 \par\nopagebreak[5]#2%
 }
 
@@ -164,7 +169,8 @@
 \newcommand{\Star}{{\fontspec[ExternalLocation]{Miscelanea.ttf}*}}
 
 % Three “magic stars” decoration
-\def\Stars{{\large\Star\kern-.6ex\lower1.3ex\hbox{\large\Star}\kern-.1ex\raise.2ex\hbox{\tiny\Star}\spacefactor1000}}
+% Large, normal, tiny
+\def\Stars{{{\large\Star}\kern-.6ex\lower1.3ex\hbox{\Star}\kern-.1ex\raise.2ex\hbox{\tiny\Star}\spacefactor1000}}
 
 % Text break made of \Stars (only used to define other commands)
 \makeatletter

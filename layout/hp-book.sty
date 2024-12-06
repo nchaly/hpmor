@@ -10,6 +10,14 @@
 
 \documentclass[12pt,extrafontsizes,twoside,openright,final,msmallroyalvopaper]{memoir}
 
+% Add multilingual support.
+\usepackage{polyglossia}
+\setmainlanguage{belarusian}
+\setotherlanguage{english}
+% quotes
+\usepackage[autostyle=false, style=russian]{csquotes}
+\MakeOuterQuote{"}
+
 \input{layout/hp-header}
 
 
@@ -20,6 +28,8 @@
 % FIXME: Improve the layout: margins not perhaps as wide as the default, but
 % wider than currently. (The type block is currently the same as for the previous, larger paper.)
 %
+\setstocksize{240mm}{165mm}
+\settrimmedsize{\stockheight}{\stockwidth}{*}
 \settypeblocksize{\topskip + 34\baselineskip}{352pt}{*}
 \setlrmargins{*}{*}{\hplrmargins}
 \setulmargins{*}{*}{1}
@@ -65,8 +75,9 @@
 
 	\renewcommand*{\printchapternum}{%
 		\chapnumfont \hyperref[contents]{\textls[30]{
-\IfInteger{\thechapter}{\NUMBERstring{chapter}}{\thechapter}
-}}}
+		%\IfInteger{\thechapter}{\NUMBERstring{chapter}}
+		{\thechapter}
+     }}}
 
 	\renewcommand*{\printchaptername}{%
 		\centering \chapnamefont \hyperref[contents]{\MakeUppercase{\textls[30]{\@chapapp}}}
@@ -101,3 +112,20 @@
 \beforesecskip=1.5\baselineskip %        skip before the heading
 \aftersecskip=.5\baselineskip plus .5\baselineskip %         skip after the heading
 \setsechook{\nopagebreak\vskip 0pt plus 3\baselineskip\setsecnumformat{}}
+
+
+% Text glue
+
+% \showthe\baselineskip
+
+\setlength{\baselineskip}{1.4em plus 0.3em minus 0.1em}
+\raggedbottom
+
+\spaceskip=0.4em plus 0.3em minus 0.2em
+\tolerance=300
+\pretolerance=300  % decreate probability of hyphenation
+
+
+% memoir
+%\sloppybottom %lets TeX put an extra line at the bottom of a page to avoid
+% a widow on the following page
