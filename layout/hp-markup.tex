@@ -18,16 +18,22 @@
 
 % parsel
 \newcommand{\parselify}[1]{%
-  \StrSubstitute{#1}{ss}{ß}[\parselstring]%
-  \StrSubstitute{\parselstring}{s}{ss}[\parsselstring]%
-  \StrSubstitute{\parsselstring}{ß}{sss}[\parssselstring]%
+  \StrSubstitute{#1}{с}{сс}[\parselstringD]
+  \StrSubstitute{\parselstringD}{С}{Сc}[\parselstringC]
+  \StrSubstitute{\parselstringC}{ш}{шш}[\parselstringB]
+  \StrSubstitute{\parselstringB}{Ш}{Шш}[\parselstringA]
+
+
+  % ...
+  \StrSubstitute{\parselstringA}{}{}[\parselstringFINAL]
 }
 % N.B. Other commands, such as \emph, cannot be used inside \parsel
 %
 % parsel
 % old version of parsel
 \newcommand{\parsela}[1]{\parselify{#1}%
-{\ptsansi\parssselstring}}
+{\large\hpFontParsel\parselstringFINAL}}
+
 %
 % new FR version of parsel by yeKcim
 % note: Other commands, such as \emph, cannot be used inside \parsel
