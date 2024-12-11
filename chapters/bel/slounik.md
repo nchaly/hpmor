@@ -45,6 +45,7 @@
 
 * Ollivander - Алівандар
 
+* Patil, Padma - Падма Паціл
 * Pensieve - Думніца, прылада для захоўвання ўспамінаў.
 * Potions - зёлкі. Зёлкаварэнне.
 * Potter-Evans-Verres, Harry James - Гары Джэймс Потэр-Эванс-Верэс
@@ -58,7 +59,7 @@
 * Trelawney - Трэлоні.
 
 * Quidditch - Квіддзіч
-* Quirell - Квірэл
+* Quirell, Quirinus - Квірэл Квірынес
 
 
 
