@@ -20,6 +20,7 @@
 * Gryffindor - Грыфіндор
 
 * Hagrid - Харгыд
+* Herbology - Гарбалогія (як гарбата і г.д.)
 * Hermione Granger - Герміёна Грэнджэр
 * Hogwarts - Хогвартс
 * Hogwarts’ Board of Governors - Папячыцельская Рада Хогвартс.
@@ -30,6 +31,7 @@
 * Lestrange - Лестрэнж.
 * Longbottom, Neville - Нэвіл Лонгботам.
 
+* Macmillan, Ernie - Эрні Макмілан
 * Malfoy, Draco  - Драко Малфой. У "Драко" ціск, вядома, на "о", што болей падобна на "дракон".
   У ангельскай мове таксама "dr\`agon" - "Dr\`ako".
 * Malfoy, Lucius - Люцыус 
@@ -58,8 +60,10 @@
 
 * Trelawney - Трэлоні.
 
+* Quieter (Quietus controller in beds) - Сцішальнік
 * Quidditch - Квіддзіч
 * Quirell, Quirinus - Квірэл Квірынес
+* Quotes Quill - Прыткае Пяро
 
 
 
