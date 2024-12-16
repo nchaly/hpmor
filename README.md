@@ -25,16 +25,16 @@ of the chapters.
 
 * Fonts: All original fonts are limited to English and needed replacement.
 
-  * All "Alegreya" fonts has beenreplaced with the current Google Fonts
-    distribution. 
+  * All "Alegreya" fonts has been replaced with the current Google Fonts
+    distribution to support Belarusian charset. 
   * Lumos has been extended to include cyrillic glyphs from anonymous font 
     "AA Lumos Caps".
-  * Font of written notes (gabriele_bad_ah) replaced with true cursive
-    multilanguage font from Google Fonts "Great Vibes".
-  * Use of plyglossia package also forces monotype font to provide cyrillic
-    subset (althoug we use it for URLs only), so default monotype is 
-    set to Source Code Pro from Google Fonts.
-  * ComforterBrush - as fast handwriting font.
+  * Font of written notes (gabriele_bad_ah) replaced with:
+    * Caveat from Google Fonts - as fast handwriting font. 
+    * Pacifico from Google Fonts - as game of life font . 
+    * Great Vibes from Google Fonts as true cursive multilanguage font.
+  * Use of plyglossia package also requires monotype font to provide cyrillic
+    subset, so default monotype is set to Source Code Pro from Google Fonts.
   * As I have not checked all of them, most likely will replace 
     a font here or there as translation proceeds.
 

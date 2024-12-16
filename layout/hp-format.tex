@@ -25,12 +25,17 @@
 \newfontface\hpFontParsel[ExternalLocation]{AmaticSC-Regular}
 
 
-\setmonofont[Extension=.ttf
+\newfontfamily\hpMonoFont[Extension=.ttf
 , UprightFont=*-Regular
-, ItalicFont=*-Italic
+%, ItalicFont=*-Italic  % NOTE: no cyrillic charset
+%, BoldItalicFont=*-BoldItalic
 , BoldFont=*-Bold
-, BoldItalicFont=*-BoldItalic]
+]
 {SourceCodePro}
+
+\renewcommand{\ttfamily}{\hpMonoFont}
+% this is for polyglossia
+\newcommand{\cyrillicfonttt}{\hpMonoFont}
 
 % Drop-caps at start of chapters
 \renewcommand{\LettrineFontHook}{\hpfont}

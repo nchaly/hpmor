@@ -93,20 +93,24 @@
 }
 
 
-% Letters / writtenNote
+% Letters / handwritten fonts
 \newfontface\hpFontCursive[ExternalLocation]{GreatVibes-Regular.ttf}
 % Fast handwriting font
-\newfontface\hpFontFasthand[ExternalLocation]{ComforterBrush-Regular.ttf}
+\newfontface\hpFontFasthand[ExternalLocation]{Caveat-Regular.ttf}
+% Font used in notes from Game of Life
+\newfontface\hpFontGame[ExternalLocation]{Pacifico-Regular.ttf}
+
+
 
 
 \newenvironment{writtenNote}{%
 \begin{flushleft}  % Yep, nobody can justify ideally handwritten text, so lets not even pretend.
-\hpFontCursive\Large%
+\hpFontFasthand\large%
 \renewcommand{\emph}{\uline}%
 \vskip .1\baselineskip plus .1\baselineskip minus .1\baselineskip%
 \begin{adjustwidth}{\parindent}{\parindent}%
 \par\setlength{\parindent}{0pt}\setlength{\parskip}{\baselineskip}%
-\itshape%
+\itshape% use cursive fonts already, but ok
 }
 {%
 \par
@@ -114,6 +118,8 @@
 \end{flushleft}
 \vskip 1\baselineskip plus 1\baselineskip minus 0.1\baselineskip%
 }
+\newenvironment{writtenNoteCursive}{\begin{writtenNote}\Large\hpFontCursive}{\end{writtenNote}}
+\newenvironment{writtenNoteGame}{\begin{writtenNote}\hpFontGame}{\end{writtenNote}}
 
 % \letterAddress
 \newcommand{\letterAddress}[1]{%%\fontspec[ExternalLocation]{Graphe_Alpha_alt.ttf}%
