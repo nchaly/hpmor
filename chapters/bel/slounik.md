@@ -1,7 +1,10 @@
 * Arithmancy - Арыфмансія
 * Aurors - Аўроры
 
+* Cloak of Invisibility - Плашч Нябачнасці
+
 * Death Eaters - Пажыральнікі Смерці
+* Deathly Hallows - Дары Смерці
 * Defense Against Dark Arts -  Абарона ад Цёмных Майстэрстваў
 * Diagon Alley - Дыягон-аллея.
 * Dumbledore - Альбус Персіваль Вулфрык Брайан Дамблдор
@@ -69,6 +72,13 @@
 
 * St. Mungo’s - Сант-Манга, шпіталь.
 * Slytherin - Слізэрын, факультэт.
+* Spimster wicket (to treat a rare, non-contagious magical ailment called 
+  Spontaneous Duplication.) - Скрутнасцішны бардальён 
+  (сцішае скрут галавы, бардальён як медальён ад "wicket" == "XXX + locket")
+* Spontaneous Duplication - Ідыядубліпатыя.
+  Ідыяпачытны == спантанны/самачынны.
+  дублі == дублікацыя.
+  патыя == канчатак, вызначае агульны/сістэмны характар хваробы. 
 
 * Spells: 
     * Charm - зачараванне, самадзельнае: чаравік/зачарка(?)
@@ -76,13 +86,22 @@
     * Spell - заклінанне, і таксама заклён.
 
 * Spells, list:
-  * Wingardium Leviosa
-  * Avada Kadavra, abracadabra, killing curse - Забіваючы Заклён.
-  * Feather-Falling Potion - зёлкі Падучай Пярыны 
-  * Gillyweed - Жабразелле
-  * Food and Water Pills - Вода-сілкавальныя таблеткі
-  * Veritaserum - Верытасерум
+  A general note: as incantatons are pseudo-latin (and this is explicitly
+  mentioned in the text), characters pronounce them non-translated, 
+  so in translated text they say "Wingardium Leviosa". But name for the spell
+  (identifier) is usually its function: забывальны заклён, або сцішальны заклён,
+  і гэтак далей.
 
+
+  * Wingardium Leviosa (spell) - not translated.
+  * Avada Kadavra (name and spell), abracadabra, killing curse (name) - Забіваючы Заклён.
+  * Feather-Falling Potion - зёлкі Падучай Пярыны 
+  * Gillyweed (plant) - Жабразелле
+  * Food and Water Pills - Вода-сілкавальныя таблеткі
+  * Veritaserum (potion name) - Верытасерум
+  * Disillusionment (name) - Дызілюзорнасць
+
+* Time-Turner = Часаварот.
 
 * Warlock - Чарнакніжнік (Warlocks barter for their power, rather than fully 
   owning it. Like sorcerers, they gain their power from an external source,
