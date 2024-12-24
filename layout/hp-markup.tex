@@ -18,12 +18,10 @@
 
 % parsel
 \newcommand{\parselify}[1]{%
-  \StrSubstitute{#1}{с}{сс}[\parselstringD]
-  \StrSubstitute{\parselstringD}{С}{Сc}[\parselstringC]
-  \StrSubstitute{\parselstringC}{ш}{шш}[\parselstringB]
-  \StrSubstitute{\parselstringB}{Ш}{Шш}[\parselstringA]
-
-
+  \StrSubstitute{#1}{с}{сс}[\parselstringD]%
+  \StrSubstitute{\parselstringD}{С}{Сc}[\parselstringC]%
+  \StrSubstitute{\parselstringC}{ш}{шш}[\parselstringB]%
+  \StrSubstitute{\parselstringB}{Ш}{Шш}[\parselstringA]%
   % ...
   \StrSubstitute{\parselstringA}{}{}[\parselstringFINAL]
 }
