@@ -18,16 +18,20 @@
 
 % parsel
 \newcommand{\parselify}[1]{%
-  \StrSubstitute{#1}{ss}{ß}[\parselstring]%
-  \StrSubstitute{\parselstring}{s}{ss}[\parsselstring]%
-  \StrSubstitute{\parsselstring}{ß}{sss}[\parssselstring]%
+  \StrSubstitute{#1}{с}{сс}[\parselstringD]%
+  \StrSubstitute{\parselstringD}{С}{Сc}[\parselstringC]%
+  \StrSubstitute{\parselstringC}{ш}{шш}[\parselstringB]%
+  \StrSubstitute{\parselstringB}{Ш}{Шш}[\parselstringA]%
+  % ...
+  \StrSubstitute{\parselstringA}{}{}[\parselstringFINAL]
 }
 % N.B. Other commands, such as \emph, cannot be used inside \parsel
 %
 % parsel
 % old version of parsel
 \newcommand{\parsela}[1]{\parselify{#1}%
-{\ptsansi\parssselstring}}
+{\large\hpFontParsel\parselstringFINAL}}
+
 %
 % new FR version of parsel by yeKcim
 % note: Other commands, such as \emph, cannot be used inside \parsel
@@ -50,7 +54,7 @@
 \newcommand{\McGonagallWhiteBoard}[1]{%
   \begin{center}
     \newsavebox{\hpbox}%
-    \fontspec[ExternalLocation,Color=AA0000]{Florante}
+    \fontspec[ExternalLocation,Color=AA0000]{BadScript-Regular}
     \savebox{\hpbox}{\MakeUppercase{#1}}
     \vspace{0.5ex}
     \usebox{\hpbox}
@@ -87,32 +91,43 @@
 }
 
 
-% Letters / writtenNote
+% Letters / handwritten fonts
+\newfontface\hpFontCursive[ExternalLocation]{GreatVibes-Regular.ttf}
+% Fast handwriting font
+\newfontface\hpFontFasthand[ExternalLocation]{Caveat-Regular.ttf}
+% Font used in notes from Game of Life
+\newfontface\hpFontGame[ExternalLocation]{Pacifico-Regular.ttf}
+
+
+
 
 \newenvironment{writtenNote}{%
-\fontspec[ExternalLocation]{Graphe_Alpha_alt.ttf}\scriptsize%
+\begin{flushleft}  % Yep, nobody can justify ideally handwritten text, so lets not even pretend.
+\hpFontFasthand\large%
 \renewcommand{\emph}{\uline}%
 \vskip .1\baselineskip plus .1\baselineskip minus .1\baselineskip%
 \begin{adjustwidth}{\parindent}{\parindent}%
 \par\setlength{\parindent}{0pt}\setlength{\parskip}{\baselineskip}%
-\itshape%
+\itshape% use cursive fonts already, but ok
 }
 {%
 \par
 \end{adjustwidth}%
-\vskip 1\baselineskip plus 1\baselineskip minus 1\baselineskip%
+\end{flushleft}
+\vskip 1\baselineskip plus 1\baselineskip minus 0.1\baselineskip%
 }
+\newenvironment{writtenNoteCursive}{\begin{writtenNote}\Large\hpFontCursive}{\end{writtenNote}}
+\newenvironment{writtenNoteGame}{\begin{writtenNote}\hpFontGame}{\end{writtenNote}}
 
 % \letterAddress
-\newcommand{\letterAddress}[1]{%
-\pagebreak[1]\fontspec[ExternalLocation]{Graphe_Alpha_alt.ttf}%
-\scriptsize#1\nopagebreak[4]\par%
+\newcommand{\letterAddress}[1]{%%\fontspec[ExternalLocation]{Graphe_Alpha_alt.ttf}%
+\pagebreak[1]#1\nopagebreak[4]\par%
 }
 
 % \letterClosing
 \newcommand{\letterClosing}[2][\vskip 1\baselineskip]{%
-\nopagebreak[4]\fontspec[ExternalLocation]{Graphe_Alpha_alt.ttf}%
-\par\scriptsize#1%
+\nopagebreak[4]%
+\par#1%
 \par\nopagebreak[5]#2%
 }
 
@@ -123,15 +138,15 @@
 % Page header: The Stanford Prison Experiment XIII: \\? Aftermaths
 % Title: The Stanford Prison Experiment, Part XIII: \\? Aftermaths
 \newcommand{\partchapter}[3][\relax]{%
-	\chapter[\texorpdfstring{#2, \abbrev{part #3}}{#2, part #3}]%
-		[#2 #3]{#2, Part~#3#1}}
+	\chapter[\texorpdfstring{#2, \abbrev{частка #3}}{#2, частка #3}]%
+		[#2 #3]{#2, Частка~#3#1}}
 \newcommand{\namedpartchapter}[5][\relax]{%
 	\chapter[%
 			\texorpdfstring{%
-				\abbrev{#3, part #4}: #5}{%
-				#3, part #4: #5}][%
+				\abbrev{#3, частка #4}: #5}{%
+				#3, частка #4: #5}][%
 			\mbox{#2 #4:} \mbox{#5}]{%
-			#2, Part~#4:\protect\linebreak[1] #5#1}%
+			#2, Частка~#4:\protect\linebreak[1] #5#1}%
 }
 
 % Hanging paras for play scripts (used in Omake IV)
@@ -164,7 +179,8 @@
 \newcommand{\Star}{{\fontspec[ExternalLocation]{Miscelanea.ttf}*}}
 
 % Three “magic stars” decoration
-\def\Stars{{\large\Star\kern-.6ex\lower1.3ex\hbox{\large\Star}\kern-.1ex\raise.2ex\hbox{\tiny\Star}\spacefactor1000}}
+% Large, normal, tiny
+\def\Stars{{{\large\Star}\kern-.6ex\lower1.3ex\hbox{\Star}\kern-.1ex\raise.2ex\hbox{\tiny\Star}\spacefactor1000}}
 
 % Text break made of \Stars (only used to define other commands)
 \makeatletter

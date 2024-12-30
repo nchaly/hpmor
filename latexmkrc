@@ -46,3 +46,7 @@ $postscript_mode = $dvi_mode = 0;
 
 # Make our fonts available to TeX
 $ENV{TEXFONTS} = catfile($basedir, 'fonts') . catfile('', '') x 2 . $Config{path_sep};
+
+$emulate_aux = 0;
+$out_dir = './output';
+$aux_dir = './output/temp';
