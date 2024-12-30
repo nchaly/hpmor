@@ -33,6 +33,7 @@ of the chapters.
     * Caveat from Google Fonts - as fast handwriting font. 
     * Pacifico from Google Fonts - as game of life font . 
     * Great Vibes from Google Fonts as true cursive multilanguage font.
+    * "Bad Script" from Google Fonts for MacGonagall blackboard writing.
   * Use of plyglossia package also requires monotype font to provide cyrillic
     subset, so default monotype is set to Source Code Pro from Google Fonts.
   * As I have not checked all of them, most likely will replace 
