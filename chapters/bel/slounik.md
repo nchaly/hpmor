@@ -6,6 +6,7 @@
 * Death Eaters - Пажыральнікі Смерці
 * Deathly Hallows - Дары Смерці
 * Defense Against Dark Arts -  Абарона ад Цёмных Майстэрстваў
+* Dementor - Дэментар
 * Diagon Alley - Дыягон-аллея.
 * Dumbledore - Альбус Персіваль Вулфрык Брайан Дамблдор
 
@@ -100,8 +101,18 @@
   * Food and Water Pills - Вода-сілкавальныя таблеткі
   * Veritaserum (potion name) - Верытасерум
   * Disillusionment (name) - Дызілюзорнасць
+  * Apparition (name) - апарыцыя. (?) 
 
 * Time-Turner = Часаварот.
+* Transfiguragion - трансфігурацыя.
+  Дзеля яснасці, мы кажам мэту першай, крыніцу другой.
+  (transfigure X from Y)
+  Прыклад: трансфігураваць ваду з дрэва (было дрэва, стала вада)
+  Трансфігураваць кубак з яйка. 
+  
+  Казаць "трансфігураваць дрэва ў ваду" --- няправільна, бо 
+  "трансфігураваць дрэва" значыць атрымаць дрэва. 
+  Калі трэба такое, кажы "пераўтварыць дрэва ў ваду".
 
 * Warlock - Чарнакніжнік (Warlocks barter for their power, rather than fully 
   owning it. Like sorcerers, they gain their power from an external source,
