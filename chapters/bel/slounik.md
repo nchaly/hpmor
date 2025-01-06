@@ -1,3 +1,4 @@
+* Acid Slugs - Кіслотныя Смаўжы
 * Arithmancy - Арыфмансія
 * Aurors - Аўроры
 
@@ -29,6 +30,7 @@
 * Hogwarts - Хогвартс
 * Hogwarts’ Board of Governors - Папячыцельская Рада Хогвартс.
 * Hufflepuff - Хафлпаф
+* Hungarian Horntail - вянгерскі рагахвост.
 
 
 * Leaky Cauldron - Дзіравы Кацёл, бар.
@@ -47,6 +49,7 @@
     * ліпаскін - "ліпа" у сэнсэ падробка (mock)
     * махляскін, шэльмаскін - таксама
 
+* Nightmare Butterflies - Кашмарныя матылькі
 * Noble and Most Ancient House - Вялікі і Старажытнейшы Род
 
 * Ollivander - Алівандар
@@ -102,6 +105,9 @@
   * Veritaserum (potion name) - Верытасерум
   * Disillusionment (name) - Дызілюзорнасць
   * Apparition (name) - апарыцыя. (?) 
+  * Stunning Hex (name) - аглушальнае закляцце
+  * Cutting Charms (name) - праразныя 
+  * Sumerian Simple Strike Hex - Шчучынскі штурханец 
 
 * Time-Turner = Часаварот.
 * Transfiguragion - трансфігурацыя.
