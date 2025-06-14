@@ -3,22 +3,25 @@
 * Aurors - Аўроры
 
 * Cloak of Invisibility - Плашч Нябачнасці
+* Comed-Tea - Жарта-Кола (Fallout can use cola, why can't we?)
 
 * Death Eaters - Пажыральнікі Смерці
 * Deathly Hallows - Дары Смерці
 * Defense Against Dark Arts -  Абарона ад Цёмных Майстэрстваў
 * Dementor - Дэментар
 * Diagon Alley - Дыягон-аллея.
-* Dumbledore - Альбус Персіваль Вулфрык Брайан Дамблдор
+* Dumbledore - Альбус Персіваль Вулфрык Брайан Дамблдор, Майстра Хогвартс
 
-
-* Comed-Tea - Жарта-Кола (Fallout can use cola, why can't we?)
+* Exploding Snap - card game where cards explode.
+    "выбуховы цмок", цмок - проста слова, гукам
+    рэзкае, кшталту "шчоўк" (як і snap).
 
 * Flitwick, Filius - Флітвік, Філіус.
 * Floo system/powder - Лятучае сеціва/парашок 
 * Flourish and Blotts - Флорыш і Блоц, кнігарня.
 
 
+* Goldstein, Anthony - Энтані Голдштэйн
 * Gondrik's Hollow - Лагчына Годрыка
 * Granger, Hermione - Герміёна Грэнжэр.
 * Gringotts - Грынготс
@@ -53,12 +56,26 @@
 * Noble and Most Ancient House - Вялікі і Старажытнейшы Род
 
 * Ollivander - Алівандар
+* OWLs and NEWTs  - 
+  * Ordinary Wizarding Level
+    - СыЧ - сярдэдні чараўніцкі (экзамен) 
+    - іншыя
+      - Чараўнік падрыхтаваны звычайны?
+      - ВУЗ? вядзьмарскі узровень звычайны
+  * Nastily Exhausting Wizarding Tests
+    - КРУМ Катавальна РУплівы Магічны (экзамен), КРУМкач 
+    - дрэнныя варыянты:
+      - КАСАЧ - КАтавальна СкладАны тэст Чараўніка
+      - КАРТЭЧ  Катавальна Руплівы ТЭст Чараўніка
+      - ... ТНАЧ  ... Тэст На Чараўніка
+      - катавальна складаны іспыт ?
+
 
 * Patil, Padma - Падма Паціл
 * Pensieve - Думніца, прылада для захоўвання ўспамінаў.
 * Potions - зёлкі. Зёлкаварэнне.
 * Potter-Evans-Verres, Harry James - Гары Джэймс Потэр-Эванс-Верэс
-* Ravenclaw - Рэйвенкло, рэйвенклоўскі/рэйвенклошны/рэйвенклоўны
+
 
 * Salazar and Godric and Rowena and Helga - Салазар, Годрык, Равена, Хельга.
 * Slytherin - Слізэрын.
@@ -72,6 +89,8 @@
 * Quirell, Quirinus - Квірэл Квірынес
 * Quotes Quill - Прыткае Пяро
 
+* Ravenclaw - Рэйвенкло, рэйвенклоўскі/рэйвенклошны/рэйвенклоўны
+* Remembrall - Напамінальнік
 
 
 * St. Mungo’s - Сант-Манга, шпіталь.
@@ -108,6 +127,7 @@
   * Stunning Hex (name) - аглушальнае закляцце
   * Cutting Charms (name) - праразныя 
   * Sumerian Simple Strike Hex - Шчучынскі штурханец 
+  * Hover Charm  - Заклён Левітацыі
 
 * Time-Turner = Часаварот.
 * Transfiguragion - трансфігурацыя.
