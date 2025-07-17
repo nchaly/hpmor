@@ -81,3 +81,9 @@ VOLUME /app
 #  xelatex  --output-directory=output --aux-directory=output/temp hpmor
 #  # to run complete build
 #  latexmk hpmor
+
+
+# local windows setup:
+# MikTEX
+# set TEXFONTS=fonts//;
+# xelatex  --output-directory=output --aux-directory=output/temp hpmor
