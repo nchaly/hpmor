@@ -11,11 +11,18 @@
 * Dementor - Дэментар
 * Diagon Alley - Дыягон-аллея.
 * Dumbledore - Альбус Персіваль Вулфрык Брайан Дамблдор, Майстра Хогвартс
+  * Headmaster of Hogwarts - Майстра Хогвартс.
+  * Chief Warlock of the Wizengamot - Галоўны Чарнакніжнік Уізернгамота.
+  * Supreme Mugwump of the International Confederation of Wizards - 
+    Вярхоўны Стаўбень Міжнароднай Канфедэрацыі Чараўнікоў.
+    
 
 * Exploding Snap - card game where cards explode.
     "выбуховы цмок", цмок - проста слова, гукам
     рэзкае, кшталту "шчоўк" (як і snap).
 
+* Fawkes, Dumbledore's phoenix -  Фоукс. 
+    (нельга фокс, бо будзе падавацца, што гэта fox. See https://forum.wordreference.com/threads/pronunciation-fawkes-as-in-guy-fawkes.275898 )
 * Flitwick, Filius - Флітвік, Філіус.
 * Floo system/powder - Лятучае сеціва/парашок 
 * Flourish and Blotts - Флорыш і Блоц, кнігарня.
@@ -93,6 +100,10 @@
 * Remembrall - Напамінальнік
 
 
+* Sherbet lemon - маглаўскія цукеркі, з парашком сода+лімоная кіслата ўнутры, 
+  якія выдаюць углекіслы газ, калі дабярэшся да яго прац цвёрдую
+  абалонку цукеркі. У нас завецца рознымі варыянтамі, нешта кшталтку 
+  "шыпучка".
 * St. Mungo’s - Сант-Манга, шпіталь.
 * Slytherin - Слізэрын, факультэт.
 * Spimster wicket (to treat a rare, non-contagious magical ailment called 
@@ -139,6 +150,8 @@
   Казаць "трансфігураваць дрэва ў ваду" --- няправільна, бо 
   "трансфігураваць дрэва" значыць атрымаць дрэва. 
   Калі трэба такое, кажы "пераўтварыць дрэва ў ваду".
+
+* Unbreakable Vow - Непарушны Зарок
 
 * Warlock - Чарнакніжнік (Warlocks barter for their power, rather than fully 
   owning it. Like sorcerers, they gain their power from an external source,
