@@ -8,35 +8,6 @@
 
 \RequirePackage{calc}
 
-% Fonts used generally (specific fonts used only once or twice are not here).
-\usepackage{xltxtra}
-\defaultfontfeatures{Ligatures={TeX}}
-\setmainfont[
-  Extension=.ttf
-, UprightFont=*-Regular
-, ItalicFont=*-Italic
-, BoldFont=*-Bold
-, BoldItalicFont=*-BoldItalic
-, SmallCapsFont=AlegreyaSC-Regular
-]{Alegreya}
-
-\newfontface\hpfont[ExternalLocation]{LumosCyr}
-\newfontface\ptsansi[ExternalLocation]{AlegreyaSans-Italic}
-\newfontface\hpFontParsel[ExternalLocation]{AmaticSC-Regular}
-
-
-\newfontfamily\hpMonoFont[Extension=.ttf
-, UprightFont=*-Regular
-%, ItalicFont=*-Italic  % NOTE: no cyrillic charset
-%, BoldItalicFont=*-BoldItalic
-, BoldFont=*-Bold
-]
-{SourceCodePro}
-
-\renewcommand{\ttfamily}{\hpMonoFont}
-% this is for polyglossia
-\newcommand{\cyrillicfonttt}{\hpMonoFont}
-\newcommand{\cyrillicfontsf}{\ptsansi}
 
 % Drop-caps at start of chapters
 \renewcommand{\LettrineFontHook}{\hpfont}
