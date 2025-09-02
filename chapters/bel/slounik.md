@@ -2,11 +2,13 @@
 * Arithmancy - Арыфмансія
 * Aurors - Аўроры
 
+* Binns - Professor Binns of History. - Бінз
+
 * Cloak of Invisibility - Плашч Нябачнасці
 * Comed-Tea - Жарта-Кола (Fallout can use cola, why can't we?)
 
 * Death Eaters - Пажыральнікі Смерці
-* Deathly Hallows - Дары Смерці
+* Deathly Hallows - Скарбы Смерці
 * Defense Against Dark Arts -  Абарона ад Цёмных Майстэрстваў
 * Dementor - Дэментар
 * Diagon Alley - Дыягон-аллея.
@@ -15,6 +17,7 @@
   * Chief Warlock of the Wizengamot - Галоўны Чарнакніжнік Уізернгамота.
   * Supreme Mugwump of the International Confederation of Wizards - 
     Вярхоўны Стаўбень Міжнароднай Канфедэрацыі Чараўнікоў.
+* Detention - спагнанне
     
 
 * Exploding Snap - card game where cards explode.
@@ -35,6 +38,7 @@
 * Gryffindor - Грыфіндор
 
 * Hagrid - Харгыд
+* Hannah Abbott - Ганна Эбат
 * Herbology - Гарбалогія (як гарбата і г.д.)
 * Hermione Granger - Герміёна Грэнджэр
 * Hogwarts - Хогвартс
@@ -42,10 +46,15 @@
 * Hufflepuff - Хафлпаф
 * Hungarian Horntail - вянгерскі рагахвост.
 
+* Justin Finch-Fletchley - Джасцін Фінч-Флэчлі (першакурснік хафлпаф)
+
 
 * Leaky Cauldron - Дзіравы Кацёл, бар.
 * Lestrange - Лестрэнж.
 * Longbottom, Neville - Нэвіл Лонгботам.
+* Legilimency - ад лацінскай legere - read and mens = mind.
+  Леджэламенцыя
+  Гл. таксама аклюменцыя (occlumency)
 
 * Macmillan, Ernie - Эрні Макмілан
 * Malfoy, Draco  - Драко Малфой. У "Драко" ціск, вядома, на "о", што болей падобна на "дракон".
@@ -58,6 +67,7 @@
     * бурбаскін - таксама адсылка да малескіна, + бурбалка (надзьмуваецца)
     * ліпаскін - "ліпа" у сэнсэ падробка (mock)
     * махляскін, шэльмаскін - таксама
+* Monksblood and Wolfsbane - прастрэл-трава і воўчы корань
 
 * Nightmare Butterflies - Кашмарныя матылькі
 * Noble and Most Ancient House - Вялікі і Старажытнейшы Род
@@ -80,7 +90,8 @@
 
 * Patil, Padma - Падма Паціл
 * Pensieve - Думніца, прылада для захоўвання ўспамінаў.
-* Potions - зёлкі. Зёлкаварэнне.
+* Potions, прадмет - Зеллеварэнне. Скар./жаргон "зёлкі".
+* Potion - напой (магічны), узвар, вывар.
 * Potter-Evans-Verres, Harry James - Гары Джэймс Потэр-Эванс-Верэс
 
 
@@ -159,3 +170,6 @@
   with greater powers known as 'patrons' who grant them magical abilities.)
   (https://www.thegamer.com/dungeons-dragons-dnd-wizard-warlock-sorcerer-difference-guide/)
 * Wizengamot - Уізенгамот
+
+
+* Zabriskan Fontema - Забруйская Фантэма  
