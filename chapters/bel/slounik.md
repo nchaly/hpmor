@@ -163,6 +163,7 @@
   Калі трэба такое, кажы "пераўтварыць дрэва ў ваду".
 
 * Unbreakable Vow - Непарушны Зарок
+* Unforgiveable Curse - Недаравальны праклён 
 
 * Warlock - Чарнакніжнік (Warlocks barter for their power, rather than fully 
   owning it. Like sorcerers, they gain their power from an external source,
