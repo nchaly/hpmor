@@ -53,8 +53,9 @@
 * Lestrange - Лестрэнж.
 * Longbottom, Neville - Нэвіл Лонгботам.
 * Legilimency - ад лацінскай legere - read and mens = mind.
-  Леджэламенцыя
-  Гл. таксама аклюменцыя (occlumency)
+  Леджэламанцыя
+  Гл. таксама аклюманцыя (occlumency)
+* Legilimens - чалавек, які ведае за леджэламанцыю - леджэламансер.
 
 * Macmillan, Ernie - Эрні Макмілан
 * Malfoy, Draco  - Драко Малфой. У "Драко" ціск, вядома, на "о", што болей падобна на "дракон".
@@ -150,6 +151,10 @@
   * Cutting Charms (name) - праразныя 
   * Sumerian Simple Strike Hex - Шчучынскі штурханец 
   * Hover Charm  - Заклён Левітацыі
+  * Obliviate - Забывальны Заклён. 
+    Часта карыстаецца як дзеяслоў або дзеепрыметнік (to be obliviated)
+
+
 
 * Time-Turner = Часаварот.
 * Transfiguragion - трансфігурацыя.
